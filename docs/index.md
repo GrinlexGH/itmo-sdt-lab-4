@@ -10,7 +10,6 @@
    - [Rectangle](#rectangle)
    - [Square](#square)
    - [Triangle](#triangle)
-3. [Change history](#change-history)
 
 ## Overview
 

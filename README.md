@@ -37,6 +37,7 @@ Full class and method reference: [docs/index.md](docs/index.md).
 
 ## Change history
 
+- `a943262` Fix test filename in quick start
 - `5e4c80b` Update README.md for tests
 - `4e10f5b` Add unit tests
 - `98e0f15` Update README.md
