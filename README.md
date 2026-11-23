@@ -1,26 +1,42 @@
-# Rectangle
+# Geometry
 
-A small Python module for calculating the area and perimeter of a rectangle.
+A small Python module for calculating the area and perimeter of basic geometric shapes: **Circle**, **Rectangle**, **Square**, and **Triangle**.
 
 ## Features
 
-- [x] Area calculation: `area(a, b)`
-- [x] Perimeter calculation: `perimeter(a, b)`
+- [x] **Circle:** `Circle.area(r)`, `Circle.perimeter(r)`
+- [x] **Rectangle:** `Rectangle.area(a, b)`, `Rectangle.perimeter(a, b)`
+- [x] **Square:** `Square.area(a)`, `Square.perimeter(a)`
+- [x] **Triangle:** `Triangle.area(a, h)`, `Triangle.perimeter(a, b, c)`
 
 ## Quick start
 
 ```bash
 git clone <repository-url>
 cd project
-python -c "from rectangle import area; print(area(3, 4))"
+python -c "from geometry import Circle, Rectangle; print(Rectangle.area(3, 4)); print(Circle.area(5))"
+```
+
+### Example usage
+
+```python
+from geometry import Circle, Rectangle, Square, Triangle
+
+print("Circle area:", Circle.area(5))
+print("Rectangle perimeter:", Rectangle.perimeter(3, 4))
+print("Square area:", Square.area(4))
+print("Triangle perimeter:", Triangle.perimeter(3, 4, 5))
 ```
 
 ## Documentation
 
-Full function reference and change history: [docs/index.md](docs/index.md).
+Full class and method reference: [docs/index.md](docs/index.md).
 
 ## Change history
 
+- `0be8a5e` Update documentation
+- `f22fc2a` Replace rectangle with geometry lib
+- `28fe430` Add README.md
 - `938fc52` Add documentation
 - `dac84b9` Change documentation to doxygen style
 - `410988b` Document rectangle API
