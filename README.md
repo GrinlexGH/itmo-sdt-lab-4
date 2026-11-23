@@ -15,6 +15,9 @@ A small Python module for calculating the area and perimeter of basic geometric 
 git clone <repository-url>
 cd project
 python -c "from geometry import Circle, Rectangle; print(Rectangle.area(3, 4)); print(Circle.area(5))"
+
+# Run tests
+python -m unittest -v test_geometric.py
 ```
 
 ### Example usage
@@ -34,6 +37,8 @@ Full class and method reference: [docs/index.md](docs/index.md).
 
 ## Change history
 
+- `4e10f5b` Add unit tests
+- `98e0f15` Update README.md
 - `0be8a5e` Update documentation
 - `f22fc2a` Replace rectangle with geometry lib
 - `28fe430` Add README.md
